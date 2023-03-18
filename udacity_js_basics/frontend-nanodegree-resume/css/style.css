@@ -10,6 +10,7 @@ h4,
 h5,
 h6 {
   padding: 0;
+  color: red;
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
