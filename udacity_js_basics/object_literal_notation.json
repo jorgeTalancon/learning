@@ -1,0 +1,22 @@
+var educaction = {
+	"schools": [
+		{
+		"name": "Benavente",
+		"city": "Celaya",
+		"studies": ["High School"],
+		"graduation year": "2000"
+		},
+		{
+		"name": "Atenee Royal",
+		"city": "Welkenraedt",
+		"studies": ["French"],
+		"graduation year": "2001"	
+		},
+		{
+		"name": "Fudan University",
+		"city": "Shanghai",
+		"studies": ["chinese","business"],
+		"graduation year": "2006"
+		}
+	]
+}
