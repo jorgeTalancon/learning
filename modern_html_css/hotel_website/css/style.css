@@ -1,0 +1,180 @@
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main styling */
+html, body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+
+}
+
+h1, h2, h3 {
+  padding-bottom:20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* utility classes */
+.container {
+  margin:auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+span.yellow {
+  color: #f7c08a;
+}
+.bg-yellow {
+  background: #f7c08a;
+}
+.bg-grey {
+  background: #e0e0e0;
+}
+button.btn {
+  color: white;
+  background: #292929;
+  border: none;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: .7em;
+  color: #f7c08a;
+}
+button.btn:hover {
+  background-color: #f7c08a;
+  color: #292929;
+  cursor: pointer;
+  font-weight: 700;
+}
+button.btn-light {
+  background:#e0e0e0;
+  color:#333;
+}
+button.btn-light:hover {
+  background:#f7c08a;
+  color:rgb(51, 51, 51);
+}
+.clear {
+  clear: both;
+}
+/* navbar */
+#navbar {
+  background-color: #333;
+  color: white;
+  overflow: auto;
+}
+
+#navbar a {
+  color:white;
+}
+
+#navbar h1 {
+  float:left;
+  padding-top: 20px;
+  font-weight: 900;
+  letter-spacing: .1em;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background-color: #444;
+  color: #f7c08a;
+}
+
+/* Showcase */ 
+#showcase {
+  background:no-repeat center/100%  url("../img/showcase.jpg");
+  height: 400px;
+  padding: 10%;
+  text-align: center;
+}
+#showcase h1 {
+  font-weight: 900;
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+
+#showcase h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+/* Main */
+section#main {
+  height: 500px;
+  color:white;
+}
+.mainLeft {
+  float: left;
+  width:50%;
+  background: url('../img/photo-1.jpg') no-repeat;
+  min-height: 100%;
+}
+
+.mainRight {
+ height: 100%;
+ float:right;
+ width: 50%;
+ padding: 10% 5%;
+ text-align: center;
+}
+
+.bg-dark {
+  background-color: #292929;
+}
+section#info-icons div {
+  display: block;
+  width: 33.333%;
+  float: left;
+  text-align: center;
+  padding: 5% 2%;
+  color: #333;
+}
+section#info-icons {
+  font-size: .90em;
+  line-height: 1.4em;
+}
+section#info-icons h3 {
+  line-height: 2em;
+}
+footer {
+  text-align: center;
+  color: rgb(129, 129, 129);
+  padding: 1%;
+}
+
+
+
+
+
+
+
+
