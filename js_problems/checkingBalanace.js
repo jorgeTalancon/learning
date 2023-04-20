@@ -1,12 +1,12 @@
 
-var balance = -1;
+var balance = 1000000;
 var isActive = true;
 
 function checkingMyBalance() {
 let checkBalance = prompt('Do you want to check your balance?. y/n');
  if (checkBalance === 'y') {
 	if (balance > 0 && isActive) {
-		alert('Your balance is $' + balance + '.');
+		alert('Your balance is $' + balance.toFixed(2) + '.');
 	}
 	if (isActive === false) {
 		alert('Your account is no longer active');
