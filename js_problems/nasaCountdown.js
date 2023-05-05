@@ -18,25 +18,52 @@
 
 x = 60;
 
+// while (x >= 0) {
+//     console.log('T' + x + 'seconds');
+//     if (x === 50) {
+//         console.log('T' + x + ' Orbiter transfers from ground to internal power');
+//     }
+//     else if (x === 31) {
+//         console.log('T' + x + ' Ground launch sequencer is go for auto sequence start');
+//     }
+//     else if (x === 16) {
+//         console.log('T' + x + ' Activate launch pad sound suppression system');
+//     }
+//     else if (x === 10) {
+//         console.log('T' + x + ' Activate main engine hydrogen burnoff system')
+//     }
+//     else if (x === 6) {
+//         console.log('T' + x + ' Main engine start')
+//     }
+//     else if (x === 0) {
+//         console.log('T' + x + ' Solid rocket booster ignition and liftoff!')
+//     }
+//     x-=1;
+// }
+
+// usando swicth
 while (x >= 0) {
-    console.log('T' + x + 'seconds');
-    if (x === 50) {
+    switch(x) {
+    case 50:
         console.log('T' + x + ' Orbiter transfers from ground to internal power');
-    }
-    else if (x === 31) {
-        console.log('T' + x + ' Ground launch sequencer is go for auto sequence start');
-    }
-    else if (x === 16) {
+        break;
+    case 31:
+         console.log('T' + x + ' Ground launch sequencer is go for auto sequence start');
+         break;
+     case 16:
         console.log('T' + x + ' Activate launch pad sound suppression system');
-    }
-    else if (x === 10) {
-        console.log('T' + x + ' Activate main engine hydrogen burnoff system')
-    }
-    else if (x === 6) {
-        console.log('T' + x + ' Main engine start')
-    }
-    else if (x === 0) {
-        console.log('T' + x + ' Solid rocket booster ignition and liftoff!')
+        break;
+    case 10:
+        console.log('T' + x + ' Activate main engine hydrogen burnoff system');
+        break;
+    case 6:
+        console.log('T' + x + ' Main engine start');
+        break;
+    case 0:
+        console.log('T' + x + ' Solid rocket booster ignition and liftoff!');
+        break;
+    default:
+        console.log('T' + x + ' seconds');
     }
     x-=1;
 }
