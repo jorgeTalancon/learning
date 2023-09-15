@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before & after css</title>
+    <style>
+        .is-required:after {
+            content: '*';
+            color: red;
+            padding-left: 2px;
+        }
+
+        * {
+
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #333;
+            color:white;
+            margin: 0;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.356);
+        }
+        header:before {
+            content:'';
+            background: url('bg_selectors.jpg')
+            no-repeat center center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        header > h1 {
+            font-size: 4rem;
+            margin: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <label class="is-required" for="name">Name</label>
+    <input type="text"> -->
+    <header>
+        <h1>Hello world</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, natus.</p>
+    </header>
+
+    <section>
+        <h3>Lorem ipsum dolor sit.</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia optio neque praesentium impedit nisi, iste error nulla maxime voluptatibus, sed odio odit dolore, repudiandae molestias illo. Earum, accusamus fuga! Laborum?</p>
+    </section>
+</body>
+</html>

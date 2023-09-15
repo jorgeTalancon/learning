@@ -1,0 +1,1 @@
+github: https://github.com/WebDevPie/Smooth-Scrolling-For-Your-Website---Lenis-GSAP-Animation-ScrollTrigger
